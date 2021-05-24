@@ -40,3 +40,21 @@
     font-size: 15px;
     
 }
+
+.content{
+    width: 100%;
+    position: relative;
+    top: 10%;
+}
+
+.left-col{
+    margin-left: 6%;
+}
+
+.left-col h1{
+    color: antiquewhite;
+    font-size: 90px;
+    float: left;
+    line-height: 120px;
+
+}
