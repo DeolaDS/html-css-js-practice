@@ -8,7 +8,7 @@
 section{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -88,4 +88,16 @@ p{
     padding: 8px 20px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.imageCol{
+    width: 600px;
+    display: flex;
+    justify-content: center ;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+img{
+    max-width: 340px;
 }
