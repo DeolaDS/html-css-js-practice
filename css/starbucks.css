@@ -101,3 +101,25 @@ p{
 img{
     max-width: 340px;
 }
+
+.thumbnail{
+    position:absolute;
+    left: 50%;
+    bottom: 20px;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.thumbnail li{
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumbnail li:hover{
+    transform: translateY(-15px);
+}
+
+.thumbnail li img{
+    max-width: 60p x;
+}
