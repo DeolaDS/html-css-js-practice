@@ -47,3 +47,45 @@ ul a{
      margin-left: 40px;
      font-weight: 400;
  }
+
+ .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .textCol{
+    position: relative;
+    max-width: 600px;  
+}
+
+h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+p{
+    color: #333;
+}
+
+.textCol a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: #017143;
+    padding: 8px 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
