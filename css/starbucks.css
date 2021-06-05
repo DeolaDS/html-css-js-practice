@@ -121,5 +121,22 @@ img{
 }
 
 .thumbnail li img{
-    max-width: 60p x;
+    max-width: 60px;
+}
+
+.smicons{
+    position:absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.smicons a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+
 }
